@@ -12,7 +12,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Webkul\\Attribute\\": "src/"
+            //"Webkul\\Attribute\\": "src/"
+            "Webkul\\Attribute\\": "/"
         }
     },
     "extra": {

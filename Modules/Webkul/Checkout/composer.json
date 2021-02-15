@@ -10,7 +10,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Webkul\\Checkout\\": "src/"
+            //"Webkul\\Checkout\\": "src/"
+            "Webkul\\Checkout\\": "/"
         }
     },
     "extra": {

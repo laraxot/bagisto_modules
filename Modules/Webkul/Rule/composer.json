@@ -11,7 +11,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Webkul\\Rule\\": "src/"
+            //"Webkul\\Rule\\": "src/"
+            "Webkul\\Rule\\": "/"
         }
     },
     "extra": {

@@ -14,7 +14,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Webkul\\Admin\\": "src/"
+            //"Webkul\\Admin\\": "src/"
+            "Webkul\\Admin\\": "/"
         }
     },
     "extra": {

@@ -13,7 +13,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Webkul\\CartRule\\": "src/"
+            //"Webkul\\CartRule\\": "src/"
+            "Webkul\\CartRule\\": "/"
         }
     },
     "extra": {

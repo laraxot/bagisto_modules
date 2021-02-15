@@ -17,7 +17,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Webkul\\Velocity\\": "src/"
+            //"Webkul\\Velocity\\": "src/"
+            "Webkul\\Velocity\\": "/"
         }
     },
 

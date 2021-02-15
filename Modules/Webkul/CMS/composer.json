@@ -10,7 +10,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Webkul\\CMS\\": "src/"
+            //"Webkul\\CMS\\": "src/"
+            "Webkul\\CMS\\": "/"
         }
     },
     "extra": {

@@ -11,7 +11,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Webkul\\SocialLogin\\": "src/"
+            //"Webkul\\SocialLogin\\": "src/"
+            "Webkul\\SocialLogin\\": "/"
         }
     },
     "extra": {
