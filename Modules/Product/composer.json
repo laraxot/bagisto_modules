@@ -1,0 +1,25 @@
+{
+    "name": "bagisto/laravel-product",
+    "license": "MIT",
+    "authors": [{
+        "name": "Jitendra Singh",
+        "email": "jitendra@webkul.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Modules\\Product\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Product\\Providers\\ProductServiceProvider"
+            ],
+            "aliases": {
+                "Bouncer": "Modules\\Product\\Facades\\Bouncer"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,22 @@
+<?php
+
+namespace Modules\BookingProduct\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Modules\BookingProduct\Contracts\BookingProductRentalSlot as BookingProductRentalSlotContract;
+
+class BookingProductRentalSlot extends Model implements BookingProductRentalSlotContract
+{
+    public $timestamps = false;
+    
+    protected $casts = ['slots' => 'array'];
+
+    protected $fillable = [
+        'renting_type',
+        'daily_price',
+        'hourly_price',
+        'same_slot_all_days',
+        'slots',
+        'booking_product_id',
+    ];
+}

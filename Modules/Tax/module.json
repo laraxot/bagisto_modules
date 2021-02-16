@@ -1,0 +1,13 @@
+{
+    "name": "Tax",
+    "alias": "Tax",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Tax\\Providers\\TaxServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

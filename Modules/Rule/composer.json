@@ -1,0 +1,23 @@
+{
+    "name": "bagisto/laravel-rule",
+    "license": "MIT",
+    "authors": [{
+        "name": "Jitendra Singh",
+        "email": "jitendra@webkul.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Modules\\Rule\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Rule\\Providers\\RuleServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

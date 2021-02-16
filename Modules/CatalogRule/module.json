@@ -1,0 +1,13 @@
+{
+    "name": "CatalogRule",
+    "alias": "CatalogRule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CatalogRule\\Providers\\CatalogRuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

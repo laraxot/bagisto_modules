@@ -1,0 +1,23 @@
+{
+    "name": "bagisto/laravel-inventory",
+    "license": "MIT",
+    "authors": [{
+        "name": "Jitendra Singh",
+        "email": "jitendra@webkul.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Modules\\Inventory\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Inventory\\Providers\\InventoryServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Core",
+    "alias": "Core",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Core\\Providers\\CoreServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

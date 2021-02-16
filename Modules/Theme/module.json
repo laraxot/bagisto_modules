@@ -1,0 +1,13 @@
+{
+    "name": "Theme",
+    "alias": "Theme",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Theme\\Providers\\ThemeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

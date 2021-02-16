@@ -1,0 +1,13 @@
+{
+    "name": "Rule",
+    "alias": "Rule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Rule\\Providers\\RuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

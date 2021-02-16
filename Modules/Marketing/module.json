@@ -1,0 +1,13 @@
+{
+    "name": "Marketing",
+    "alias": "Marketing",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Marketing\\Providers\\MarketingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "DebugBar",
+    "alias": "DebugBar",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\DebugBar\\Providers\\DebugBarServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Velocity",
+    "alias": "Velocity",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Velocity\\Providers\\VelocityServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

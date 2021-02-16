@@ -1,0 +1,13 @@
+{
+    "name": "BookingProduct",
+    "alias": "BookingProduct",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BookingProduct\\Providers\\BookingProductServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
