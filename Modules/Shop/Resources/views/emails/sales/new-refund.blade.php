@@ -168,7 +168,7 @@
             @endif
 
             @if ($refund->tax_amount > 0)
-                @foreach (Webkul\Tax\Helpers\Tax::getTaxRatesWithAmount($refund, false) as $taxRate => $taxAmount)
+                @foreach (Modules\Tax\Helpers\Tax::getTaxRatesWithAmount($refund, false) as $taxRate => $taxAmount)
                 <div>
                     <span>{{ __('shop::app.mail.order.tax') }}</span>
                     <span style="float: right;">

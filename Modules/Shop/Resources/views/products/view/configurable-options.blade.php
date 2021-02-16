@@ -1,4 +1,4 @@
-@if (Webkul\Product\Helpers\ProductType::hasVariants($product->type))
+@if (Modules\Product\Helpers\ProductType::hasVariants($product->type))
 
     @inject ('configurableOptionHelper', 'Modules\Product\Helpers\ConfigurableOption')
 
