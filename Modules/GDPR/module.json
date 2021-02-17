@@ -1,0 +1,13 @@
+{
+    "name": "GDPR",
+    "alias": "gdpr",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GDPR\\Providers\\GDPRServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

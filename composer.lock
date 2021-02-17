@@ -209,16 +209,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.173.9",
+            "version": "3.173.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d15688cfe291767ba203c97d5833b963f544412f"
+                "reference": "fc5153fc7047b4092cd60659c907d4591b65caa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d15688cfe291767ba203c97d5833b963f544412f",
-                "reference": "d15688cfe291767ba203c97d5833b963f544412f",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fc5153fc7047b4092cd60659c907d4591b65caa0",
+                "reference": "fc5153fc7047b4092cd60659c907d4591b65caa0",
                 "shasum": ""
             },
             "require": {
@@ -290,7 +290,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2021-02-15T19:28:47+00:00"
+            "time": "2021-02-16T19:15:07+00:00"
         },
         {
             "name": "babenkoivan/elastic-adapter",
@@ -2468,16 +2468,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.28.0",
+            "version": "v8.28.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c0e07808606b591e9591d52f22552ebf257f399c"
+                "reference": "73dd43d92fcde6c6abc00658ae33391397ca119d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c0e07808606b591e9591d52f22552ebf257f399c",
-                "reference": "c0e07808606b591e9591d52f22552ebf257f399c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/73dd43d92fcde6c6abc00658ae33391397ca119d",
+                "reference": "73dd43d92fcde6c6abc00658ae33391397ca119d",
                 "shasum": ""
             },
             "require": {
@@ -2628,7 +2628,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2021-02-16T14:16:34+00:00"
+            "time": "2021-02-16T18:07:44+00:00"
         },
         {
             "name": "laravel/legacy-factories",
