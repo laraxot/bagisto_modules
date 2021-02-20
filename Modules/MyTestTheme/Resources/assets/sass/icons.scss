@@ -1,0 +1,25 @@
+.myTestTheme-icon {
+    width: 60px;
+    height: 55px;
+    display: inline-block;
+    background-size: cover;
+    background-image: url("../images/Icon-myTestTheme.svg");
+}
+
+.camera-icon {
+    background-image: url("../images/Camera.svg");
+    width: 24px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.router-link-active,
+.active {
+    .myTestTheme-icon {
+        background-image: url("../images/Icon-myTestTheme-Active.svg");
+    }
+
+    &.myTestTheme-icon {
+        background-image: url("../images/Icon-myTestTheme-Active.svg");
+    }
+}

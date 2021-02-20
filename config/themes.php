@@ -23,6 +23,13 @@ return [
             'name' => 'Velocity',
             'parent' => 'default'
         ],
+
+        'myTestTheme' => [
+            'views_path' => 'Modules/MyTestTheme/Resources/views',
+            'assets_path' => 'public/themes/myTestTheme/assets',
+            'name' => 'MyTestTheme',
+            'parent' => 'default'
+        ],
     ],
 
     'admin-default' => 'default',
