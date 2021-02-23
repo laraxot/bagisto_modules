@@ -1,11 +1,11 @@
 {
-    "name": "Velocity",
-    "alias": "Velocity",
+    "name": "MyTestTheme",
+    "alias": "MyTestTheme",
     "description": "",
     "keywords": [],
     "priority": 0,
     "providers": [
-        "Modules\\Velocity\\Providers\\VelocityServiceProvider"
+        "Modules\\MyTestTheme\\Providers\\MyTestThemeServiceProvider"
     ],
     "aliases": {},
     "files": [],

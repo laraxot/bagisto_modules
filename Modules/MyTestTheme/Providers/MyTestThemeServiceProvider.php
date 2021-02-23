@@ -16,6 +16,7 @@ class MyTestThemeServiceProvider extends ServiceProvider
      */
     public function boot(Router $router)
     {
+        /*
         include __DIR__ . '/../Http/helpers.php';
 
         include __DIR__ . '/../Http/admin-routes.php';
@@ -33,6 +34,7 @@ class MyTestThemeServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../Resources/views', 'myTestTheme');
 
         $this->loadTranslationsFrom(__DIR__ . '/../Resources/lang', 'myTestTheme');
+        */
     }
 
     /**
@@ -42,9 +44,11 @@ class MyTestThemeServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        /*
         $this->registerConfig();
 
         $this->registerFacades();
+        */
     }
 
     /**
@@ -55,11 +59,13 @@ class MyTestThemeServiceProvider extends ServiceProvider
     protected function registerConfig()
     {
         $this->mergeConfigFrom(
-            dirname(__DIR__) . '/Config/admin-menu.php', 'menu.admin'
+            dirname(__DIR__) . '/Config/admin-menu.php',
+            'menu.admin'
         );
 
         $this->mergeConfigFrom(
-            dirname(__DIR__) . '/Config/acl.php', 'acl'
+            dirname(__DIR__) . '/Config/acl.php',
+            'acl'
         );
     }
 

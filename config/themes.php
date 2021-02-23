@@ -18,7 +18,7 @@ return [
         // ]
 
         'velocity' => [
-            'views_path' => 'resources/themes/velocity/views',
+            'views_path' => 'resources/themes/velocity/views', // i NOMI SON MINUSCOLI
             'assets_path' => 'public/themes/velocity/assets',
             'name' => 'Velocity',
             'parent' => 'default'
@@ -28,7 +28,7 @@ return [
             'views_path' => 'Modules/MyTestTheme/Resources/views',
             'assets_path' => 'public/themes/myTestTheme/assets',
             'name' => 'MyTestTheme',
-            'parent' => 'default'
+            //'parent' => 'default' // ma perche' ????
         ],
     ],
 

@@ -27,5 +27,6 @@
     "Ui": true,
     "User": true,
     "Velocity": true,
-    "GDPR": true
+    "GDPR": true,
+    "MyTestTheme": true
 }
