@@ -3,7 +3,7 @@
 namespace Modules\MyTestTheme\Models;
 
 use Modules\Core\Eloquent\TranslatableModel;
-use Modules\myTestTheme\Contracts\Content as ContentContract;
+use Modules\MyTestTheme\Contracts\Content as ContentContract;
 
 class Content extends TranslatableModel implements ContentContract
 {

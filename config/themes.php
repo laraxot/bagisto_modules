@@ -25,10 +25,9 @@ return [
         ],
 
         'myTestTheme' => [
-            'views_path' => 'Modules/MyTestTheme/Resources/views',
+            'views_path' => 'Modules/MyTestTheme/Resources/views', //questo va bene? voglio che le view siano quelle del modulo
             'assets_path' => 'public/themes/myTestTheme/assets',
             'name' => 'MyTestTheme',
-            //'parent' => 'default' // ma perche' ????
         ],
     ],
 

@@ -4,7 +4,7 @@ namespace Modules\MyTestTheme\Http\Controllers\Admin;
 
 use Illuminate\Http\Response;
 use Modules\Product\Repositories\ProductRepository;
-use Modules\myTestTheme\Repositories\ContentRepository;
+use Modules\MyTestTheme\Repositories\ContentRepository;
 
 class ContentController extends Controller
 {

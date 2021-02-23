@@ -8,10 +8,10 @@ use Modules\Product\Facades\ProductImage;
 use Modules\Product\Models\Product as ProductModel;
 use Modules\Product\Repositories\ProductRepository;
 use Modules\Product\Repositories\ProductFlatRepository;
-use Modules\myTestTheme\Repositories\OrderBrandsRepository;
+use Modules\MyTestTheme\Repositories\OrderBrandsRepository;
 use Modules\Product\Repositories\ProductReviewRepository;
 use Modules\Attribute\Repositories\AttributeOptionRepository;
-use Modules\myTestTheme\Repositories\myTestThemeMetadataRepository;
+use Modules\MyTestTheme\Repositories\myTestThemeMetadataRepository;
 
 class Helper extends Review
 {

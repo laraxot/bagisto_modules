@@ -4,7 +4,7 @@ namespace Modules\MyTestTheme\Http\Controllers\Shop;
 
 use Cart;
 use Illuminate\Support\Facades\Log;
-use Modules\myTestTheme\Helpers\Helper;
+use Modules\MyTestTheme\Helpers\Helper;
 use Modules\Checkout\Contracts\Cart as CartModel;
 use Modules\Product\Repositories\ProductRepository;
 

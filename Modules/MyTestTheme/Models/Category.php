@@ -3,7 +3,7 @@
 namespace Modules\MyTestTheme\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Modules\myTestTheme\Contracts\Category as CategoryContract;
+use Modules\MyTestTheme\Contracts\Category as CategoryContract;
 
 class Category extends Model implements CategoryContract
 {

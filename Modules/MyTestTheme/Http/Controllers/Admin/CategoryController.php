@@ -4,7 +4,7 @@ namespace Modules\MyTestTheme\Http\Controllers\Admin;
 
 use Illuminate\Http\Response;
 use Modules\Category\Repositories\CategoryRepository;
-use Modules\myTestTheme\Repositories\CategoryRepository as myTestThemeCategoryRepository;
+use Modules\MyTestTheme\Repositories\CategoryRepository as myTestThemeCategoryRepository;
 
 class CategoryController extends Controller
 {

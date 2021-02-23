@@ -3,7 +3,7 @@
 namespace Modules\MyTestTheme\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Modules\myTestTheme\Contracts\ContentTranslation as ContentTranslationContract;
+use Modules\MyTestTheme\Contracts\ContentTranslation as ContentTranslationContract;
 
 class ContentTranslation extends Model implements ContentTranslationContract
 {

@@ -5,7 +5,7 @@ namespace Modules\MyTestTheme\Providers;
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use Modules\myTestTheme\Facades\MyTestTheme as myTestThemeFacade;
+use Modules\MyTestTheme\Facades\MyTestTheme as myTestThemeFacade;
 
 class MyTestThemeServiceProvider extends ServiceProvider
 {

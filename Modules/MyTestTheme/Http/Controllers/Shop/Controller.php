@@ -6,13 +6,13 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 
-use Modules\myTestTheme\Helpers\Helper;
+use Modules\MyTestTheme\Helpers\Helper;
 use Modules\Product\Repositories\SearchRepository;
 use Modules\Product\Repositories\ProductRepository;
 use Modules\Customer\Repositories\WishlistRepository;
 use Modules\Category\Repositories\CategoryRepository;
-use Modules\myTestTheme\Repositories\Product\ProductRepository as myTestThemeProductRepository;
-use Modules\myTestTheme\Repositories\myTestThemeCustomerCompareProductRepository as CustomerCompareProductRepository;
+use Modules\MyTestTheme\Repositories\Product\ProductRepository as myTestThemeProductRepository;
+use Modules\MyTestTheme\Repositories\myTestThemeCustomerCompareProductRepository as CustomerCompareProductRepository;
 
 class Controller extends BaseController
 {

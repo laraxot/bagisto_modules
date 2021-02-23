@@ -4,7 +4,7 @@ namespace Modules\MyTestTheme\Http\Controllers\Admin;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use Modules\myTestTheme\Repositories\myTestThemeMetadataRepository;
+use Modules\MyTestTheme\Repositories\myTestThemeMetadataRepository;
 
 class ConfigurationController extends Controller
 {

@@ -3,7 +3,7 @@
 namespace Modules\MyTestTheme\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Modules\myTestTheme\Contracts\OrderBrand as OrderBrandContract;
+use Modules\MyTestTheme\Contracts\OrderBrand as OrderBrandContract;
 use Modules\Attribute\Models\AttributeOptionProxy;
 use Modules\Category\Models\CategoryProxy;
 
